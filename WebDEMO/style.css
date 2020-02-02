@@ -1,0 +1,60 @@
+nav{
+    background-color: black;
+    text-align: center;
+    font-size: 0;
+}
+
+
+nav a{
+
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 40px;
+    font-size: 16px;
+    font-family: 微軟正黑體;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: burlywood;
+}
+
+.item .img-fluid{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.item .img-fluid{transform:scale(1);transition: all 1s ease-out;}
+.item .img-fluid:hover{transform:scale(1.07,1.07);}
+
+.item .text{
+    text-align: center;
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.row{
+    background:rgba(255, 255, 255, 0.623);
+    width: auto;
+    height: auto;
+}
+
+
+
+
